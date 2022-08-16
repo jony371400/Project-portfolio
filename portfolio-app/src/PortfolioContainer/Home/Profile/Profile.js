@@ -1,8 +1,9 @@
+import React from "react";
+
 import './Profile.css';
 import Typical from 'react-typical'
 
-function App() {
-    
+export default function Profile() {
     return (
         <div className="profile-container">
             <div className='profile-parent'>
@@ -35,22 +36,22 @@ function App() {
 
                     <div className="profile-details-role">
                         <span className="primary-text">
-                            <h1>
+                            <h3>
                                 {" "}
                                 < Typical
                                     loop={Infinity}
                                     steps={[
-                                        "Frontend Dev 😃",
+                                        "Frontend Dev 💻",
                                         1000,
-                                        "Backend Dev 😘",
+                                        "Backend Dev 🗿",
                                         1000,
-                                        "Database Dev 🤪",
+                                        "Database Dev 📁",
                                         1000,
-                                        "Robotic Dev 😎",
+                                        "Robotic Dev 🤖",
                                         1000
                                     ]}
                                 />
-                            </h1>
+                            </h3>
 
                             <span className='profile-role-tagline'>
                                 Welcome to Johnny's Website , Enjoy It.
@@ -72,7 +73,7 @@ function App() {
                         </a>
                     </div>
                 </div>
-
+ 
                 <div className='profile-picture'>
                     <div className='profile-picture-background'>
                     </div>
@@ -81,5 +82,3 @@ function App() {
         </div>
     );
 }
-
-export default App;
