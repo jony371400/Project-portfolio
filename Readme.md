@@ -7,7 +7,7 @@ $ cd [ProjectName]
 $ npm start
 ```
 
-# Debugging
+# Libary
 > react-typical
 ```
 $ npm i react-typical
