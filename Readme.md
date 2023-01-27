@@ -31,4 +31,4 @@ $ npm install react-router-hash-link
 $ npm install react-on-screen
 ```
 
-![Image](https://github.com/jony371400/Project-portfolio/Pic/Index.png)
+![Image](https://github.com/jony371400/Project-portfolio/blob/main/Pic/Index.png)
